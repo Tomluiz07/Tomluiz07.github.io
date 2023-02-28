@@ -508,27 +508,27 @@ body{
 }
 
 @media (max-width: 530px){
- .header nav, ul, li{
+ .header nav, ul{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    margin: 0 0rem -1rem 2rem;
-
+    margin: 0 0rem -1rem 2.6rem;
  }
 
  .header a {
-    background-color: #b3b1b1;
-    padding: 0.5rem 0.5rem;
+    background-color: #dddddd;
+    padding: 0.3rem 0.2rem;
     text-align: right;
     border-radius: 4px;
     margin-right: 8rem;
     color: #020202;
+    text-align: center;
     text-transform: uppercase;
  }
 
  .header img{
-    margin: 1rem 0 2rem 8.9rem;
+    margin: 1rem 0rem 2em 7.9rem;
     padding: 1rem;
  }
 
@@ -536,77 +536,113 @@ body{
     max-width: 17rem;
     margin: 8rem 0 0 0rem ;
     padding: 0;
+    position: relative;
 }
 
 .introducao-apresentacao h1{
- font-size: 2rem;
- margin: 0rem 0 0 0rem;
- padding: 0;
+    font-size: 3rem;
+}
+
+.introducao-apresentacao h1::before{
+ content: "";
+ display:block;
+ position: absolute;
+ width:48px;
+ height: 12px;
+ top: -0.5rem;
+ left: -0rem;
+ background: linear-gradient(#b0fd09, #0add49);  
 }
 
 .introducao-apresentacao img{
     display: none;
 }
 
-#localizador-introducao{
-    font-size: 1.5rem;
-}
 
-.fomacao-apresentacao p {
-   margin: 0 0 0 2rem;
-   padding: 2rem 0 4rem 0;
-   width: 22.4rem;
+.apresentacao-experiencia p{
+   padding-bottom: 2rem;
 }
 
 .experiencia h1{
- margin-top: 4rem;
+   margin-top: 4rem;
+   padding: 0rem;
+}
+
+.formacao{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    flex: 1;
+    padding: 0 0 9rem 0;
 }
 
 .formacao h1 {
-  padding-left: 3rem;
-  margin-top: 4rem;
+  font-size: 2.4rem;
+   padding: 2em 0rem;
+   margin: 0 0 0 3.5rem ;
+
 }
+
+.fomacao-apresentacao p {
+    font-size: 1.2rem;
+    padding: 0 0rem;
+    margin: 0rem 0rem;
+ 
+}
+
+.fomacao-apresentacao{
+    padding: 0;
+    margin: 0 0 3rem 1rem; 
+    width: 20rem;
+}
+
+.div-formacao{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0rem 0rem;
+    width: 22rem;
+}
+
 
 .blocos-1-2-3-formacao{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 0;
+    margin: 0 0 0 1rem;
+    padding: 0;
+    width: 20rem;
+    align-content: center;
 }
 
 .cursos-adicionais{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 1rem;
-    width: 23rem;
-    margin: 2rem 4rem 0 0;   
+    justify-content: space-between;
+    margin: 1rem 0rem 0 0;  
 }
 
 .cursos{
     display: flex;
     flex-direction: column;
-    padding: 0;
+    padding: 3rem 0 0 0 ;
     justify-content: left;
-    margin: 0rem 0rem 3rem 6rem;   
+    margin: 0rem 0rem 0rem 1rem; 
 }
 
 .horas-cursos{
     display: flex;
     flex-direction: column;
-    margin-top: 3.8rem;
+    margin-top: 6.8rem;
+    margin-right: 1rem;
 }
 
 .div-formacao img{
     max-width: 6rem;
     margin-bottom: 0.5rem;
-}
-
-.introducao-informacoes p{
-    width: 22rem;
-    padding: 0;
-    margin: 0 0 0 2rem;
 }
 
 .div-contatos h2{
