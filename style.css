@@ -1,0 +1,618 @@
+body{
+    margin: auto;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+}
+
+.header
+ nav, ul, a {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-size: 18px;
+  gap: 1.5rem;
+  color: black;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  text-decoration: none;
+}
+
+.header a:hover{
+  font-weight: bolder;
+
+}
+
+.header img {
+  margin-left: 5rem;
+  margin-top: 2.8rem;
+  max-width: 100%;
+}
+
+.header img, ul {
+  text-align: start;
+}
+
+
+.introducao img {
+   max-width: 22rem;
+   margin-top: 5rem;
+   display: block;
+}
+
+.introducao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+#localizador-introducao{
+  font-size: 1.5rem;
+  color: #3e3d3d;
+}
+
+.introducao-apresentacao img{
+    position: absolute;
+    top: -3.5rem;
+    left: -2.5rem;
+ }
+ 
+ .introducao-apresentacao{
+     margin-top: 7rem;
+     position: relative;
+ }
+ 
+ 
+ .introducao-apresentacao h1{
+     font-size: 4.5rem;
+     position: relative;
+ }
+
+.introducao-apresentacao p{
+    font-size: 2rem;
+}
+
+.experiencia{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 4rem;
+}
+
+.experiencia h1 {
+    font-size: 8rem;
+    word-break: break-all;
+    max-width: 5ch;
+    line-height: 8.8rem;
+    display: block;
+    text-transform: uppercase;
+    color: #d6d5d5;
+}
+
+.apresentacao-experiencia p{
+    color: #525252;
+    font-size: 1.5rem;
+    margin-top: 7rem;
+}
+
+.apresentacao-experiencia strong{
+  color: black;
+}
+
+#anos-experiencia{
+    position: absolute;
+    left: -2.5rem;
+    top: 1.1rem;
+    padding-right: 3rem;
+}
+
+.div-experiencias{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.divs-1-2-3-experiencias{
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+
+}
+
+.div-empresas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.div-empresas p{
+    font-size: 14px;
+    color: #525252;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.div-empresas h3 {
+  font-size: 19px;
+  padding: 0;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.div-empresas h3::before{
+    content: "";
+    display:block;
+    position: absolute;
+    width: 4px;
+    height: 20px;
+    left: -0.2rem;
+    background: linear-gradient(#b0fd09, #0add49);  
+}
+
+.skills-experiencia {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.skills-experiencia h3{
+    margin: 0rem 0rem 1rem 0rem ;
+}
+
+.skills-lista p{
+    background-color: #ffffff;
+    padding: 0.4em;
+    border-radius: 0.2rem;
+}
+
+.skills-lista{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0rem 0rem 0rem 0rem ;
+    padding: 0;
+}
+
+.formacao{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+    background-color: rgb(21, 21, 21);
+    padding-bottom: 3rem;
+    position: relative;
+}
+
+.formacao img{
+  position: absolute;
+  bottom: -4.1rem;
+  left: 3rem;
+}
+
+.formacao h1{
+    font-size: 8rem;
+    word-break: break-all;
+    max-width: 4ch;
+    line-height: 8.8rem;
+    display: block;
+    text-transform: uppercase;
+    color: black;
+}
+
+.fomacao-apresentacao p{
+    font-size: 25.6px;
+    color: #d6d5d5;
+    margin-bottom: 3rem;
+    margin-top: 4rem ;
+}
+
+
+.fomacao-apresentacao strong{
+    color: #ffffff;
+}
+
+.blocos-1-2-3-formacao{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.div-formacao{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 4rem;
+ 
+}
+.blocos-1-2-3 {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    word-break: break-all;
+    flex: 1;
+    max-width: 18ch;
+    margin: 0;
+    padding: 0rem 0.7rem;
+    border-radius: 4px;
+    position: relative; 
+}
+
+#detalhe-formacao-1 h3::before{
+    content: "";
+    display:block;
+    position: absolute;
+    width: 4px;
+    height: 20px;
+    left: -0.3rem;
+    top: 4.5rem;
+    background: linear-gradient(#b0fd09, #0add49);  
+}
+
+#detalhe-formacao-2 h3::before{
+    content: "";
+    display:block;
+    position: absolute;
+    width: 4px;
+    height: 20px;
+    left: -0.3rem;
+    top: 4.5rem;
+    background: linear-gradient(#b0fd09, #0add49);  
+}
+
+#detalhe-formacao-3 h3::before{
+    content: "";
+    display:block;
+    position: absolute;
+    width: 4px;
+    height: 20px;
+    top: 4.5rem;
+    left: -0.3rem;
+    background: linear-gradient(#b0fd09, #0add49);  
+}
+
+.blocos-1-2-3 p {
+    color: #717070;
+}
+
+.blocos-1-2-3  h3{
+    color: #ffffff;
+}
+
+.cursos-adicionais{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3rem;
+    position: relative;
+}
+
+.cursos-adicionais img{
+   position: absolute;
+   top: 1rem;
+   left: -2rem;
+}
+
+.cursos img{
+    position: absolute;
+    top: 1rem;
+    left: -2rem;
+}
+
+.cursos h4{
+    color: #717070;
+}
+
+.cursos  p{
+   color: white;
+   font-size: 1.1rem;
+}
+
+.cursos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 0 1rem 0;
+    padding: 0;
+    position: relative;
+}
+
+.horas-cursos{
+    color: #717070;
+    font-size: 1.1rem;
+    margin-top: 4.5rem;
+}
+
+.informacoes-finais{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6rem;
+    justify-content: space-around;
+    padding: 4rem;
+    background-color: black;
+}
+
+.informacoes-finais p {
+    font-size: 24px;
+    color: #717070;
+}
+
+.introducao-informacoes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+
+.div-contatos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+
+.div-contatos h2{
+ color: white;
+ font-size: 2rem;
+}
+.div-contatos a {
+    font-size: 2rem;
+    color: white;
+    font-weight: bolder;
+}
+.div-contatos a:hover{
+    color: #717070;
+}
+#direitos{
+    font-size: 16px;
+    margin-top: 3rem;
+}
+
+@media (max-width: 550px){
+    .introducao-apresentacao h1{
+       font-size: 3.3rem;
+    }
+    .introducao-apresentacao img {
+        display: none;
+    }
+    .introducao img{
+       max-width: 19rem;
+    }
+}
+
+@media (max-width: 1152px){
+   .experiencia h1{
+    word-break: keep-all;
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+   }
+
+   .formacao h1{
+    word-break: keep-all;
+    font-size: 3rem;
+    padding: 0;
+    margin: 2rem 0 0 6rem ;
+   }
+
+   .div-formacao{
+     margin-top: 5rem;
+     margin-right: 5rem;
+}
+
+   @media (max-width: 534px){
+    .experiencia h1{
+        font-size: 3rem;
+        padding: 0;
+        margin: 0 12rem 0 0 ;
+    }
+    
+    .formacao h1{
+        font-size: 3rem;
+        padding: 0;
+        margin-left: 2rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .blocos-1-2-3-formacao{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-left: 3rem;
+    }
+    .cursos img{
+      display: none;
+    }
+    
+    .cursos-adicionais img{
+        display: none;
+    }
+    
+    .cursos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: left;
+        margin-left: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .div-contatos h2{
+        font-size: 1.8rem;
+    }
+
+   }
+   @media (max-width: 930px){
+    .experiencia h1{
+      margin-right: 12rem;
+    }
+
+    .formacao h1{
+        margin-right: 18.5rem;
+        margin-bottom: 0rem;
+    }
+   }
+   @media (max-width: 700px){
+    .apresentacao-experiencia p{
+        font-size: 1.2rem;
+        margin-left: 1.5rem;
+    }
+   .fomacao-apresentacao p{
+        font-size: 1.2rem;
+        margin-left: 1.5rem;
+        margin-top: 0rem;
+    }
+    
+    .header nav {
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+     }
+     .header img{
+        display: block;
+        margin-left: 12rem;
+        margin-bottom: 2rem;
+    }
+
+    .div-formacao{
+        margin-left: 5rem;
+    }
+
+   }
+
+}
+
+@media (max-width: 530px){
+ .header nav, ul, li{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 0 0rem -1rem 2rem;
+
+ }
+
+ .header a {
+    background-color: #b3b1b1;
+    padding: 0.5rem 0.5rem;
+    text-align: right;
+    border-radius: 4px;
+    margin-right: 8rem;
+    color: #020202;
+    text-transform: uppercase;
+ }
+
+ .header img{
+    margin: 1rem 0 2rem 8.9rem;
+    padding: 1rem;
+ }
+
+.introducao img{
+    max-width: 17rem;
+    margin: 8rem 0 0 0rem ;
+    padding: 0;
+}
+
+.introducao-apresentacao h1{
+ font-size: 2rem;
+ margin: 0rem 0 0 0rem;
+ padding: 0;
+}
+
+.introducao-apresentacao img{
+    display: none;
+}
+
+#localizador-introducao{
+    font-size: 1.5rem;
+}
+
+.fomacao-apresentacao p {
+   margin: 0 0 0 2rem;
+   padding: 2rem 0 4rem 0;
+   width: 22.4rem;
+}
+
+.experiencia h1{
+ margin-top: 4rem;
+}
+
+.formacao h1 {
+  padding-left: 3rem;
+  margin-top: 4rem;
+}
+
+.blocos-1-2-3-formacao{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.cursos-adicionais{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 1rem;
+    width: 23rem;
+    margin: 2rem 4rem 0 0;   
+}
+
+.cursos{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: left;
+    margin: 0rem 0rem 3rem 6rem;   
+}
+
+.horas-cursos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.8rem;
+}
+
+.div-formacao img{
+    max-width: 6rem;
+    margin-bottom: 0.5rem;
+}
+
+.introducao-informacoes p{
+    width: 22rem;
+    padding: 0;
+    margin: 0 0 0 2rem;
+}
+
+.div-contatos h2{
+  font-size: 1.4rem;
+}
+
+}
+
+
