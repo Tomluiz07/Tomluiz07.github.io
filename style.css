@@ -403,7 +403,6 @@ body{
        max-width: 19rem;
     }
 }
-
 @media (max-width: 1152px){
    .experiencia h1{
     word-break: keep-all;
@@ -411,26 +410,22 @@ body{
     padding: 0;
     margin: 0;
    }
-
    .formacao h1{
     word-break: keep-all;
     font-size: 3rem;
     padding: 0;
     margin: 2rem 0 0 6rem ;
    }
-
    .div-formacao{
      margin-top: 5rem;
      margin-right: 5rem;
 }
-
    @media (max-width: 534px){
     .experiencia h1{
         font-size: 3rem;
         padding: 0;
         margin: 0 12rem 0 0 ;
     }
-    
     .formacao h1{
         font-size: 3rem;
         padding: 0;
@@ -438,7 +433,6 @@ body{
         margin-top: 0;
         margin-bottom: 0;
     }
-
     .blocos-1-2-3-formacao{
         display: flex;
         flex-direction: column;
@@ -449,11 +443,9 @@ body{
     .cursos img{
       display: none;
     }
-    
     .cursos-adicionais img{
         display: none;
     }
-    
     .cursos{
         display: flex;
         flex-direction: column;
@@ -462,17 +454,14 @@ body{
         margin-left: 3rem;
         margin-bottom: 3rem;
     }
-
     .div-contatos h2{
         font-size: 1.8rem;
     }
-
    }
    @media (max-width: 930px){
     .experiencia h1{
       margin-right: 12rem;
     }
-
     .formacao h1{
         margin-right: 18.5rem;
         margin-bottom: 0rem;
@@ -487,62 +476,24 @@ body{
         font-size: 1.2rem;
         margin-left: 1.5rem;
         margin-top: 0rem;
-    }
-    
-    .header nav {
-        margin-top: 1rem;
-        margin-left: 1.5rem;
-     }
-     .header img{
-        display: block;
-        margin-left: 12rem;
-        margin-bottom: 2rem;
-    }
-
+    }   
     .div-formacao{
         margin-left: 5rem;
     }
-
    }
-
 }
 
 @media (max-width: 530px){
- .header nav, ul{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
-    margin: 0 0rem -1rem 2.6rem;
- }
-
- .header a {
-    background-color: #dddddd;
-    padding: 0.3rem 0.2rem;
-    text-align: right;
-    border-radius: 4px;
-    margin-right: 8rem;
-    color: #020202;
-    text-align: center;
-    text-transform: uppercase;
- }
-
- .header img{
-    margin: 1rem 0rem 2em 7.9rem;
-    padding: 1rem;
- }
-
+ 
 .introducao img{
     max-width: 17rem;
     margin: 8rem 0 0 0rem ;
     padding: 0;
     position: relative;
 }
-
 .introducao-apresentacao h1{
     font-size: 3rem;
 }
-
 .introducao-apresentacao h1::before{
  content: "";
  display:block;
@@ -553,21 +504,16 @@ body{
  left: -0rem;
  background: linear-gradient(#b0fd09, #0add49);  
 }
-
 .introducao-apresentacao img{
     display: none;
 }
-
-
 .apresentacao-experiencia p{
    padding-bottom: 2rem;
 }
-
 .experiencia h1{
    margin-top: 4rem;
    padding: 0rem;
 }
-
 .formacao{
     display: flex;
     flex-direction: column;
@@ -576,27 +522,22 @@ body{
     flex: 1;
     padding: 0 0 9rem 0;
 }
-
 .formacao h1 {
   font-size: 2.4rem;
    padding: 2em 0rem;
    margin: 0 0 0 3.5rem ;
 
 }
-
 .fomacao-apresentacao p {
     font-size: 1.2rem;
     padding: 0 0rem;
     margin: 0rem 0rem;
- 
 }
-
 .fomacao-apresentacao{
     padding: 0;
     margin: 0 0 3rem 1rem; 
     width: 20rem;
 }
-
 .div-formacao{
     display: flex;
     flex-direction: column;
@@ -605,8 +546,6 @@ body{
     padding: 0rem 0rem;
     width: 22rem;
 }
-
-
 .blocos-1-2-3-formacao{
     display: flex;
     flex-direction: column;
@@ -616,7 +555,6 @@ body{
     width: 20rem;
     align-content: center;
 }
-
 .cursos-adicionais{
     display: flex;
     flex-direction: row;
@@ -624,7 +562,6 @@ body{
     justify-content: space-between;
     margin: 1rem 0rem 0 0;  
 }
-
 .cursos{
     display: flex;
     flex-direction: column;
@@ -632,23 +569,54 @@ body{
     justify-content: left;
     margin: 0rem 0rem 0rem 1rem; 
 }
-
 .horas-cursos{
     display: flex;
     flex-direction: column;
     margin-top: 6.8rem;
     margin-right: 1rem;
 }
-
 .div-formacao img{
     max-width: 6rem;
     margin-bottom: 0.5rem;
 }
-
 .div-contatos h2{
   font-size: 1.4rem;
 }
+}
 
+@media (max-width: 700px){
+    .header{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       background-color: #262626;
+       padding-bottom: 2rem;
+    }
+    .header img{
+     margin: 2rem 0 0 0;
+    }
+    .header nav, ul{
+        gap: 0;
+        margin: 1rem 0 0 0;
+    }
+    .header a {
+        color: #c3c1c1;
+        font-weight: 700;
+        background-color:#0e0d0d;
+        padding: 0.5rem;
+        border-radius: 4px;
+    }
+    @media (max-width: 500px){
+        .header nav, ul{
+            gap: 1rem;
+            margin: 1rem 0 0 0;
+            padding: 0;
+        }
+        .header a {
+            margin: 0;
+            font-size: 17px;
+        }
+    }
 }
 
 
